@@ -10,15 +10,43 @@ This is our **practice** project.
 ## List of Needs for Webpage
 1. Header
     - Logo
+        - Photo of George Brown College Logo
     - Program Name
+        - Interaction Design and Development
     - Program Description
+        - 
     - Social/School Links
-2. Body
-    - Overview of Course work/Content
+        - Twitter(twitter.com)
+        - Instagram(instagram.com)
+        - 
+2. Main
+    - Overview of Course Work/Content
+        - 
     - Career Opportunities
+        - Square Illustration or Picture representing job = Link to more details about that job/field
+        - Represented in a diagram layout or how the system works
+        - Digital Service Delivery
+            - Strategists/Business Analyst
+            - UX Designer
+            - UI Designer
+            - Information Architect
+            - Content Strategist
+            - Front-End Development
+            - Back-End Development
+            - Quality Assurance
+            - Product/Project Manager
+            - Client/Account Services
     - Tuition/Fees
-    - Student Success 
-    - Graphic/Images of Work 
+        - Hidden Section Bar
+            - Clicked = Drop down display 
+                - Tuition price for the semester
+                    - Filter of program year
+                - Broken down list of fees for full-time vs. part-time student
+    - Student Success
+        - Horizontal Scroll Section
+            - Images of current/alumni students in program displaying their work
+            - 
+    - Graphic/Images of Work
 3. Footer
     - Contact
     - Social/School Links
