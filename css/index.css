@@ -4,3 +4,7 @@ body {
 .topnav {
     background-color: #105CAD;
 }
+.img {
+    width: 50em;
+    height: auto;
+}
