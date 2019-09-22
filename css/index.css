@@ -54,6 +54,12 @@ body {
       border: 1px solid #ccc;
     }
   }
+
+  /*GBC Logo*/
+  .home {
+      position: relative;
+      
+  }
   /* Dropdown Button */
 .dropbtn {
     background-color: #4CAF50;
