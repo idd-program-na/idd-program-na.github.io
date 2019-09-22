@@ -1,13 +1,12 @@
-# Interaction Design: Day One
+# Interface Development - Project One
 
-This is our **practice** project.
+For this project, imagine you are attempting to get a job upon graduation. What things would you want an employer to know about this program and why your experiences in this program have readied you for your new career.
 
 ## Reference Pages
 - [IDD Course](https://www.georgebrown.ca/programs/interaction-design-and-development-program-g103/)
 - [GeorgeBrownSite](https://www.georgebrown.ca/)
 
 ## Inspiration for Course Webpage
-- [OCAD](https://www.ocadu.ca/academics/undergraduate-studies/graphic-design.htm)
 - [Sheridan](https://academics.sheridancollege.ca/programs/bachelor-of-interaction-design)
 - [Behance Example 1](https://www.behance.net/gallery/85518831/Buspo-Online-Business-Template)
 - [Behance Example 2](https://www.behance.net/gallery/63069925/Landing-Page-nutriciolog-lja-bogdanova)
