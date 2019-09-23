@@ -1,10 +1,42 @@
+html {
+    /* --- CSS CUSTOM PROPERTIES --- */
+
+    /* Background colours */
+    --primary-blue: #0065A4;
+    --primary-b: #009DDC;
+    --primary-c: #71D0F6;
+    --secondary-a: #000000;
+    --background: #ffffff;
+    --error: #C00909;
+
+    /* Foreground colours*/
+    --on-primary: #ffffff;
+    --on-secondary: #000000;
+    --on-background: #222222;
+    --on-error: #ffffff;
+
+    /* Fonts */
+    --font-standard: 'PT Serif', georgia, serif;
+    --font-impact: 'Roboto', helvetica, arial, sans-serif;
+}
 body {
-    background-color: white
+    background-color: var(--background);
+    color: var(--on-secondary);
+    font: normal normal 1em/2 var(--font-standard);
+    /* Line-height shorcut = 1em/2 */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-impact);
+    font-weight: 900;
+}
+h2{
+    text-transform: uppercase;
 }
 .topnav {
-    background-color: #0065A4;
+    background-color: var(--primary-blue);
+    color: var(--on-primary);
 }
-.img {
-    width: 50em;
-    height: auto;
+.bottomnav {
+    background-color: var(--primary-blue);
+    color: var(--on-primary);
 }
