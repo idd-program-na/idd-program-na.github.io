@@ -2,10 +2,10 @@ html {
     /* --- CSS CUSTOM PROPERTIES --- */
 
     /* Background colours */
-    --primary-blue: #0065A4;
-    --primary-b: #7581BF;
-    --primary-c: #71D0F6;
-    --secondary-a: #000000;
+    --primary-purple-1: #7581BF;
+    --primary-purple-2: #9aa6e4;
+    --primary-purple-3: #d4dbff;
+    --secondary-blue:  #0065A4;
     --background: #ffffff;
     --error: #C00909;
 
@@ -33,36 +33,39 @@ h2{
     text-transform: uppercase;
 }
 .topnav {
-    background-color: var(--primary-blue);
+    background-color: var(--secondary-blue);
     color: var(--on-primary);
 }
 .bottomnav {
-    background-color: var(--primary-blue);
+    background-color: var(--secondary-blue);
     color: var(--on-primary);
 }
 .department {
-    background-color: var(--primary-b);
+    background-color: var(--primary-purple-1);
     color: var(--on-primary);
-    padding: 0.5em;
+    margin: 0em;
+    padding: 0em;
+    margin-bottom: 2em;
     text-align: center;
 }
 .skills {
-    background-color: var(--primary-b);
+    background-color: var(--primary-purple-2);
 }
 /* Images */
 
 .gbclogo {
-    width: 20em;
-    height: auto;
+    width: auto;
+    height: 3em;
 }
 .dropdownicon {
-    width: 5em;
-    height: auto;
+    width: auto;
+    height: 4em;
 }
-.banner {
+.banner1 {
     width: 100%;
     height: auto;
 }
+.banner2
 .grid-container{
     display: grid;
     grid-gap: 0.5em;
