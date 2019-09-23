@@ -66,10 +66,11 @@ For this project, imagine you are attempting to get a job upon graduation. What 
             - Client/Account Services
 
     - Student Success
-        - Left Column of image/work
-        - Right column of description
-            - Images of current/alumni students in program displaying their work
-            - 
+        - Projects made by students in this course
+            - grid of images
+        - Alumni in industry workplaces
+            - List of Companies
+            
     - Related Programs
         - 3 column image and text
             - Graphic Design
