@@ -2,8 +2,8 @@ html {
     /* --- CSS CUSTOM PROPERTIES --- */
 
     /* Background colours */
-    --primary-blue: #7581BF;
-    --primary-b: #009DDC;
+    --primary-blue: #0065A4;
+    --primary-b: #7581BF;
     --primary-c: #71D0F6;
     --secondary-a: #000000;
     --background: #ffffff;
@@ -39,4 +39,31 @@ h2{
 .bottomnav {
     background-color: var(--primary-blue);
     color: var(--on-primary);
+}
+.department {
+    background-color: var(--primary-b);
+    color: var(--on-primary);
+    padding: 0.5em;
+    text-align: center;
+}
+.skills {
+    background-color: var(--primary-b);
+}
+/* Images */
+
+.gbclogo {
+    width: 20em;
+    height: auto;
+}
+.dropdownicon {
+    width: 5em;
+    height: auto;
+}
+.banner {
+    width: 100%;
+    height: auto;
+}
+.grid-container{
+    display: grid;
+    grid-gap: 0.5em;
 }

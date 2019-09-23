@@ -6,17 +6,17 @@
     <body>
         <header class="topnav">
             <section>
-                <article>
+                <div>
                     <a href="https://www.georgebrown.ca/">
-                        <img src="img/gbclogo.png" alt="GBC Logo">
+                        <img class="gbclogo" src="img/gbclogo.png" alt="GBC Logo">
                     </a>
-                </article>
+                </div>
                 <div>
                     <input type="text" placeholder="Search..">
                 </div>
                 <article>
                     <button>
-                        <img src="img/dropdownicon.png" alt="Drop Down Icon">
+                        <img class="dropdownicon" src="img/dropdownicon.png" alt="Drop Down Icon">
                     </button>
                     <article>
                         <a href="https://www.georgebrown.ca/about/">About George Brown College</a>
@@ -31,56 +31,50 @@
             </section>
         </header>
         <main>
+            <article class="department">
+                <h1>School of Design</h1>
+            </article>
             <section>
                 <article>
-                    <div><img src="img/interactiondesign-banner.jpg" alt="Interaction Design Banner"></div>
+                    <img class="banner" src="img/interactiondesign-banner.jpg" alt="Interaction Design Banner">
                     <div>
-                        <h1>Interaction Design and Development</h1>
-                        <p>Interaction Design is an interdisciplinary field merging design skills such as user experience, interface development and graphic design with coding fundamentals to create meaningful experiences between the user and digital platforms such as social media, websites, wearables and mobile devices</p>
-                        <p>School of Design</p>
+                        <h2>Interaction Design and Development</h2>
                         <p>3 Year Program Plus Optional 7th Semesters of Co-Op</p>
+                        <p>Interaction Design is an interdisciplinary field merging design skills such as user experience, interface development and graphic design with coding fundamentals to create meaningful experiences between the user and digital platforms such as social media, websites, wearables and mobile devices</p>
                     </div>
                 </article>
-                <div>
-                    <button>Apply</button>
-                    <button>More Details</button>
-                </div>
+                <button>Apply</button>
+                <button>More Details</button>
+
                 <article>
-                    <div>
-                        <h3>Skills you'll learn</h3>
-                    </div>
-                    <div>
-                        <div>Design theory and process</div>
-                        <div>Visual communication and culture</div>
-                        <div>2D and 3D design</div>
-                        <div>Digital service delivery process</div>
-                        <div>Physical computing and sensors</div>
-                        <div>Usability research and testing</div>
-                        <div>Web development and basic coding</div>
-                        <div>Business practices and entrepreneurship</div>
-                    </div>
+                    <h3>Skills you'll learn</h3>
+                        <ul class="grid-container">
+                            <li class="skills">Design theory and process</li>
+                            <li class="skills">Visual communication and culture</li>
+                            <li class="skills">2D and 3D design</li>
+                            <li class="skills">Digital service delivery process</li>
+                            <li class="skills">Physical computing and sensors</li>
+                            <li class="skills">Usability research and testing</li>
+                            <li class="skills">Web development and basic coding</li>
+                            <li class="skills">Business practices and entrepreneurship</li>
+                        </ul>
                 </article>
                 <article>
+                    <h3>Career Opportunities</h3>
                     <div>
-                        <h3>Career Opportunities</h3>
-                    </div>
-                    <div>
-                        <img src="img/careers.png" alt="Career Opportunities">
+                        <img class="banner" src="img/careers.png" alt="Career Opportunities">
                     </div>
                 </article> 
 
                 <article>
-                    <div>
-                        <h3>Student Success</h3>
-                    </div>
-                    <div>
-                        <div><img src="img/work1.png" alt="Work 1"></div>
-                        <div><img src="img/work2.png" alt="Work 2"></div>
-                        <div><img src="img/work3.png" alt="Work 3"></div>
-                        <div><img src="img/work4.png" alt="Work 4"></div>
-                    </div>
-                    <div>
-                        <h4>Companies our students have been hired by</h4>
+                    <h3>Student Success</h3>
+                        <ul class="grid-container">
+                            <li><img src="img/work1.png" alt="Work 1"></li>
+                            <li><img src="img/work2.png" alt="Work 2"></li>
+                            <li><img src="img/work3.png" alt="Work 3"></li>
+                            <li><img src="img/work4.png" alt="Work 4"></li>
+                        </ul>
+                    <h4>Companies our students have been hired by</h4>
                         <ul>
                             <li>Amazon</li>
                             <li>Google Canada</li>
@@ -88,73 +82,54 @@
                             <li>Trust Canada</li>
                             <li>Shopify</li>
                         </ul>
-                    </div>
                 </article>
 
-                <div>
-                    <div>
-
-                    </div>
+                <article>
                     <h3>Related Programs</h3>
-                    <div>
-                        <button class="accordion">Semester 1</button>
-                        <div class="panel">
-                            <p>Lorem ipsum...</p>
-                        </div>
-                            
-                        <button class="accordion">Semester 2</button>
-                        <div class="panel">
-                          <p>Lorem ipsum...</p>
-                        </div>
-                        
-                        <button class="accordion">Semester 3</button>
-                        <div class="panel">
-                          <p>Lorem ipsum...</p>
-                        </div>
-
-                        <button class="accordion">Semester 4</button>
-                        <div class="panel">
-                          <p>Lorem ipsum...</p>
-                        </div>
-
-                        <button class="accordion">Semester 5</button>
-                        <div class="panel">
-                          <p>Lorem ipsum...</p>
-                        </div>
-
-                        <button class="accordion">Semester 6</button>
-                        <div class="panel">
-                          <p>Lorem ipsum...</p>
-                        </div>
-
-                        <button class="accordion">Semester 7</button>
-                        <div class="panel">
-                          <p>Optional Co-Op Education Course where students are able to experience working in the industry with professionals and work environment</p>
-                        </div>
-                    </div>
-                </div>
+                        <ul>
+                            <li>
+                                <button class="accordion">Year 1</button>
+                                <p>Introducing all paths of Interaction Design which include Information Architecture, Usability Testing, 3D Modelling and Graphic Design. By combining their skills from all courses, students learn the process of building a prototype from the ideation process to creating an interactive product. 
+                                </p>
+                            </li>
+                            <li>
+                                <button class="accordion">Year 2</button>
+                                <p>With experience in creating a product from the ground up, students begin portfolio building with a variety of projects, i.e. 3D Modeling, brand and marketing for a company and a web interfaces.</p>
+                            </li>
+                            <li>
+                                <button class="accordion">Year 3</button>
+                                <p>Students in their final year use all previous knowledge to develop a senior thesis after given a design brief.</p>
+                            </li>
+                            <li>
+                                <button class="accordion">Semester 1</button>
+                                <p>Optional Co-Op Education Course where students are able to experience working in the industry environment and work with industry professionals. </p>
+                            </li>
+                        </ul>
+                </article>
+                
             </section>
         </main>
+
         <footer class="bottomnav">
-            <div>
-                <div>
-                    <a href="https://www.georgebrown.ca/">Home</a>
-                    <a href="https://www.georgebrown.ca/about/">About George Brown</a>
-                    <a href="">Programs</a>
-                    <a href="">Admissions</a>
-                    <a href="">Student Life</a>
-                    <a href="">International</a>
-                </div>
-                <div>
-                    <a href="">Prospective Students</a>
-                    <a href="">Current Students</a>
-                    <a href="">International Students</a>
-                    <a href="">Continuing Education Students</a>
-                    <a href="">Parents</a>
-                    <a href="">Alumni</a>
-                    <a href="">Donors</a>
-                    <a href="">Employers</a>
-                </div>
+            <ul>
+                <li><a href="https://www.georgebrown.ca/">Home</a></li>
+                <li><a href="https://www.georgebrown.ca/about/">About George Brown</a></li>
+                <li><a href="">Programs</a></li>
+                <li><a href="">Admissions</a></li>
+                <li><a href="">Student Life</a></li>
+                <li><a href="">International</a></li>    
+            </ul>
+            <ul>
+                <li><a href="">Prospective Students</a></li>
+                <li><a href="">Current Students</a></li>
+                <li><a href="">International Students</a></li>
+                <li><a href="">Continuing Education Students</a></li>
+                <li><a href="">Parents</a></li>
+                <li><a href="">Alumni</a></li>
+                <li><a href="">Donors</a></li>
+                <li><a href="">Employers</a></li>
+            </ul>
+                
                 <div>
                     <a href="">News & Events</a>
                     <a href="">Library</a>
@@ -190,7 +165,7 @@
             </div>
             <div>
                 <div>
-                    <img src="img/gbclogo.png" alt="GBC Logo">
+                    <img class="gbclogo" src="img/gbclogo.png" alt="GBC Logo">
                 </div>
                 <div>
                     <p>Connect with GBC</p>
