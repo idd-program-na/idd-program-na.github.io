@@ -28,10 +28,7 @@ For this project, imagine you are attempting to get a job upon graduation. What 
             - Research
             - Working at GBC
             - News & Events
-    - Navigation 2
-        - Overview of course
-        - Courses (Pictures of students & projects)
-        - 
+
 2. ### Main 
     - Program Name
         - Interaction Design and Development (G103)
@@ -67,14 +64,10 @@ For this project, imagine you are attempting to get a job upon graduation. What 
             - Quality Assurance
             - Product/Project Manager
             - Client/Account Services
-    - Tuition/Fees
-        - Hidden Section Bar
-            - Clicked = Drop down display 
-                - Tuition price for the semester
-                    - Filter of program year
-                - Broken down list of fees for full-time vs. part-time student
+
     - Student Success
-        - Horizontal Scroll Section
+        - Left Column of image/work
+        - Right column of description
             - Images of current/alumni students in program displaying their work
             - 
     - Related Programs
@@ -82,31 +75,72 @@ For this project, imagine you are attempting to get a job upon graduation. What 
             - Graphic Design
             - Art and Design Foundation
             - Interactive Media Management
+
 3. Footer
-    - Contact
-        - +1 416 415 2000TTY:
-        - 1-877-515-5559
-        - ask.george@georgebrown.ca
-        - Join our Email List
-        - Privacy
-    - Social/School Links
-        - Twitter
-        - Facebook
-        - Instagram
-        - Youtube
-        - LinkedIn
-    - Campuses
-        - St.James
-        - Casa Loma
-        - Waterfront
-        - Ryerson
-        - Other Locations
-        - Book a Tour
-        - Virtual Tour
-    - Related Sites
-        - Accessibility
-        - Emergency info
-        - Full-Time Programs
-        - Part-Time Programs
-        - Site Map
-        - Website Feedback
+    - Row 1
+        - Column 1
+            - Home
+            - About George Brown
+            - Programs
+            - Admissions
+            - Student Life
+            - International
+        - Column 2
+            - Prospective Students
+            - Current Students
+            - International Students
+            - Continuing Education Students
+            - Parents
+            - Alumni
+            - Donors
+            - Employers
+        - Column 3
+            - News & Events
+            - Library
+            - Research
+        - Column 4
+            - Working at George Brown
+            - Accessibility
+            - Emergency info
+            - George Brown Policies & Prodcedures
+            - Privacy & Legal
+            - Campus Security Services
+            -
+    - Row 2
+        - Column 1
+            - Campuses
+                - St.James
+                - Casa Loma
+                - Waterfront
+                - Ryerson
+                - Other Locations
+                - Book a Tour
+                - Virtual Tour
+        - Column 2
+            - Contact Us
+                - +1 416 415 2000TTY:
+                - 1-877-515-5559
+                - ask.george@georgebrown.ca
+                - Join our Email List
+    - Row 3
+        - Column 1
+            - GBC Logo
+        - Column 2
+            - Connect with GBC
+                - Twitter
+                - Facebook
+                - Instagram
+                - Youtube
+                - LinkedIn
+
+## Color Code Palette for Website
+- #0065A4 Dark Blue
+- #F57E25 Dark Orange
+- #FBB034 Light Orange
+- #C3ABD3 Light Purple
+- #7581BF Dark Purple
+- #71D0F6 Light Blue
+- #009DDC Other Blue
+- #FFD200 Yellow
+- #A0CF67 Light Green
+- #A0CF67 Dark Green
