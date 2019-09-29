@@ -48,18 +48,51 @@ h2{
     margin-bottom: 2em;
     text-align: center;
 }
-
-
+ul {
+    list-style-type: none;
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 0.5em;
+    font-size: 0.5em;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: var(--primary-purple-2);
+    min-width: 1em;
+    box-shadow: 0em 0.050em 0.100em 0em;
+    z-index: 1;
+}
+.dropdown-content a{
+    color: var(--on-primary);
+    padding: 0.5em 0.5em;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: var(--primary-purple-3);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.item {
+    padding: 0.1em;
+    text-align: center;
+}
 /* Images */
 
 .gbclogo {
     width: auto;
     height: 3em;
 }
-.dropdownicon {
-    width: auto;
-    height: 4em;
-}
+
 .banner1 {
     width: 100%;
     height: auto;
@@ -71,19 +104,15 @@ h2{
     text-align: center;
 }
 
-.grid-container{
+.grid-container-work{
     display: grid;
-    grid-template columns:  auto auto auto;
+    grid-template-columns:  auto auto auto;
     grid-gap: 1em;
-    background-color: var(--primary-purple-2);
-    padding: 2em;
-    list-style-type: none;
-}
-.grid-container li {
     background-color: var(--primary-purple-3);
     text-align: center;
     padding: 1em;
     font-size: 1em;
+    list-style-type: none;
 }
 .skills1 {
     grid-row-start: 1;
@@ -134,20 +163,36 @@ h2{
     grid-column-end: 4;
 }
 .work1 {
-    width: 20em;
+    width: 25%;
     height: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 .work2 {
-    width: 20em;
+    width: 25%;
     height: auto;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 .work3 {
-    width: 20em;
+    width: 25%;
     height: auto;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 1;
 }
 .work4 {
-    width: 20em;
+    width: 25%;
     height: auto;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 2;
 }
 /* For mobile phones: */
 [class*="col-"] {
