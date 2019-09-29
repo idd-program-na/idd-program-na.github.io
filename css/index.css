@@ -37,73 +37,76 @@ h1, h2, h3, h4, h5, h6 {
 h2{
     text-transform: uppercase;
 }
-.topnav {
-    background-color: var(--secondary-blue);
-    color: var(--on-primary);
-    height: 5em;
+/* Images */
+.nav-bar{
     width: 100%;
-}
-.bottomnav {
     background-color: var(--secondary-blue);
-    color: var(--on-primary);
-}
-.department {
-    background-color: var(--primary-purple-1);
-    color: var(--on-primary);
-    margin: 0em;
+    overflow: hidden;
+  }
+  /* Drop Down Div*/
+  .dropdown{
+    float: right;
+    height: 5em;
+    overflow: hidden;
+  }
+  /*sbLogo Div*/
+  .gbclogo{
+    float: left;
+    height: 5em;
     padding: 0em;
-    margin-bottom: 2em;
-    text-align: center;
-}
-ul {
-    list-style-type: none;
-}
-/* Drop Down Menu */
-.dropbtn {
-    background-color: var(--secondary-blue);
-    color: var(--white);
-    padding: 1em;
-    font-size: 1em;
+  }
+  /*Right-icon Div*/
+  .right-icon{
+    float: right;
+    height: 5em;
+    padding-right: 1em;
+  }
+  /*Icons Images*/
+  .icons{
+    height: 1.5em;
+    width: auto;
+    padding-left: 0.5em;
+    padding-top: 1.75em;
+    padding-right: 0.5em;
+    padding-bottom: 1.75em;
+  }
+  /*Drop Down Button*/
+  .dropbtn{
+    height: 80px;
+    width: 80px;
     border: none;
+    outline: none;
+    background: var(--secondary-blue);
+    padding: 0px;
+    margin: 0px;
   }
-  
-.dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-.dropdown-content {
+  /* Dropdown content (hidden by default) */
+  .dropdown-content{
     display: none;
     position: absolute;
-    background-color: var(--secondary-light-grey);
-    color: var(--grey);
+    background-color:var(--secondary-light-grey);
     min-width: 15em;
     box-shadow: 0em 0.75em 1em 0em;
     z-index: 1;
+    font-family: inherit;
   }
-  
-.dropdown-content a {
-    color: var(--grey);
-    padding: 1em 1.5em;
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: center;
+    color: var(--white);
+    background-color: var(--secondary-dark-blue);
+    padding: 1em 1em;
     text-decoration: none;
     display: block;
   }
-  
-.dropdown-content a:hover {
-    background-color: var(--secondary-dark-grey);
-    color: var(--white);
-}
-  
-.dropdown:hover .dropdown-content {
+  .dropdown-content a:hover{
+    background-color: var(--secondary-light-grey);
+    color: var(--secondary-dark-blue)
+  }
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
     display: block;
-}
-  
-.dropdown:hover .dropbtn {
-    background-color: var(--secondary-dark-blue);
-}
-
-/* Images */
-
+  }
 .gbclogo {
     width: auto;
     height: 5em;
