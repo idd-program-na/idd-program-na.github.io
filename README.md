@@ -19,7 +19,7 @@ For this project, imagine you are attempting to get a job upon graduation. What 
 1. ### Header
     - Navigation
         - GBC Logo (Link to Home Page)
-        - Search Icon (Search bar pop up)
+        - Search Icon 
         - Drop Down Icon (Menu) Hidden in Mobile/Shown in Web
             - About GBC
             - Academics

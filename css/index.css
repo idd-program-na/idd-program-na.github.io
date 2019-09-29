@@ -29,15 +29,7 @@ body {
     margin: 0em;
     /* Line-height shorcut = 1em/2 */
 }
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-impact);
-    font-weight: 900;
-    color: var(--white);
-}
-h2{
-    text-transform: uppercase;
-}
-/* Images */
+
 .nav-bar{
     width: 100%;
     background-color: var(--secondary-blue);
@@ -49,10 +41,11 @@ h2{
     height: 5em;
     overflow: hidden;
   }
-  /*sbLogo Div*/
+  /*GBCLogo Div*/
   .gbclogo{
     float: left;
     height: 5em;
+    width: auto;
     padding: 0em;
   }
   /*Right-icon Div*/
@@ -72,13 +65,13 @@ h2{
   }
   /*Drop Down Button*/
   .dropbtn{
-    height: 80px;
-    width: 80px;
+    height: 7em;
+    width: 7em;
     border: none;
     outline: none;
     background: var(--secondary-blue);
-    padding: 0px;
-    margin: 0px;
+    padding: 0em;
+    margin: 0em;
   }
   /* Dropdown content (hidden by default) */
   .dropdown-content{
@@ -107,15 +100,46 @@ h2{
   .dropdown:hover .dropdown-content {
     display: block;
   }
-.gbclogo {
-    width: auto;
-    height: 5em;
+
+h1 {
+    color: var(--white);
+    background-color: var(--primary-purple-1);
+    width: 100%;
+    text-align: center;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+    font-family: var(--font-impact);
+    font-size: 2em;
+}
+.banner1 {
+    float: center;
+    margin-top: 2em;
 }
 
-.banner1 {
-    width: 100%;
-    height: auto;
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--font-impact);
+    font-weight: 900;
+    color: var(--black);
 }
+h2{
+    text-transform: uppercase;
+}
+
+.top {
+    background-color: var(--secondary-blue);
+    color: var(--white);
+    float: right;
+    padding: 1em;
+    margin: 2em;
+}
+ul {
+    list-style-type: none;
+}
+
+
 .banner2 {
     width: 100%;
     height: auto;
@@ -220,37 +244,42 @@ h2{
 }
 
 /* For mobile phones: */
-[class*="col-"] {
-    width: 100%;
-  }
+ @media only screen and (min-width: 480px) {
+    .page-content {
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .banner1 {
+        width: 90%;
+        height: auto;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+ }
   
   @media only screen and (min-width: 600px) {
     /* For tablets: */
-    .col-s-1 {width: 8.33%;}
-    .col-s-2 {width: 16.66%;}
-    .col-s-3 {width: 25%;}
-    .col-s-4 {width: 33.33%;}
-    .col-s-5 {width: 41.66%;}
-    .col-s-6 {width: 50%;}
-    .col-s-7 {width: 58.33%;}
-    .col-s-8 {width: 66.66%;}
-    .col-s-9 {width: 75%;}
-    .col-s-10 {width: 83.33%;}
-    .col-s-11 {width: 91.66%;}
-    .col-s-12 {width: 100%;}
+    .page-content {
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .banner1 {
+        width: 80%;
+        height: auto;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
   }
   @media only screen and (min-width: 768px) {
     /* For desktop: */
-    .col-1 {width: 8.33%;}
-    .col-2 {width: 16.66%;}
-    .col-3 {width: 25%;}
-    .col-4 {width: 33.33%;}
-    .col-5 {width: 41.66%;}
-    .col-6 {width: 50%;}
-    .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
-    .col-9 {width: 75%;}
-    .col-10 {width: 83.33%;}
-    .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .page-content {
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    .banner1 {
+        width: 70%;
+        height: auto;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
   }
