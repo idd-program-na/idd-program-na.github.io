@@ -22,6 +22,7 @@ html {
     --font-standard: 'PT Serif', georgia, serif;
     --font-impact: 'Roboto', helvetica, arial, sans-serif;
 }
+
 body {
     background-color: var(--background);
     color: var(--black);
@@ -34,35 +35,13 @@ body {
     width: 100%;
     background-color: var(--secondary-blue);
     overflow: hidden;
-  }
+}
   /* Drop Down Div*/
   .dropdown{
-    float: right;
-    height: 5em;
-    overflow: hidden;
-  }
-  /*GBCLogo Div*/
-  .gbclogo{
     float: left;
     height: 5em;
-    width: auto;
-    padding: 0em;
-  }
-  /*Right-icon Div*/
-  .right-icon{
-    float: right;
-    height: 5em;
-    padding-right: 1em;
-  }
-  /*Icons Images*/
-  .icons{
-    height: 1.5em;
-    width: auto;
-    padding-left: 0.5em;
-    padding-top: 1.75em;
-    padding-right: 0.5em;
-    padding-bottom: 1.75em;
-  }
+    overflow: hidden;
+}
   /*Drop Down Button*/
   .dropbtn{
     height: 7em;
@@ -72,7 +51,16 @@ body {
     background: var(--secondary-blue);
     padding: 0em;
     margin: 0em;
-  }
+}
+    /*Icons Images*/
+  .icons{
+    height: 1.5em;
+    width: auto;
+    padding-left: 0.5em;
+    padding-top: 1.75em;
+    padding-right: 0.5em;
+    padding-bottom: 1.75em;
+}
   /* Dropdown content (hidden by default) */
   .dropdown-content{
     display: none;
@@ -100,6 +88,19 @@ body {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  /*GBCLogo Div*/
+  .gbclogo{
+    float: left;
+    height: 5em;
+    width: auto;
+    padding: 0em;
+}
+  /*Right-icon Div*/
+  .right-icon{
+    float: right;
+    height: 5em;
+    padding-right: 1em;
+}
 
 h1 {
     color: var(--white);
@@ -123,10 +124,9 @@ h2, h3, h4, h5, h6 {
     font-family: var(--font-impact);
     font-weight: 900;
     color: var(--black);
-}
-h2{
     text-transform: uppercase;
 }
+
 
 .top {
     background-color: var(--secondary-blue);
@@ -243,6 +243,25 @@ ul {
     text-align: center;
 }
 
+.bottomnav {
+    background-color: var(--secondary-blue);
+    color: var(--white);
+
+}
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 /* For mobile phones: */
  @media only screen and (min-width: 480px) {
     .page-content {
