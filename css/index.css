@@ -6,14 +6,17 @@ html {
     --primary-purple-2: #9aa6e4;
     --primary-purple-3: #d4dbff;
     --secondary-blue:  #0065A4;
+    --secondary-dark-blue: #004982;
+    --secondary-dark-grey: #666666;
+    --secondary-light-grey: #EDEDED;
     --background: #ffffff;
     --error: #C00909;
 
     /* Foreground colours*/
-    --on-primary: #ffffff;
-    --on-secondary: #000000;
-    --on-background: #222222;
-    --on-error: #ffffff;
+    --white: #ffffff;
+    --black: #000000;
+    --grey: #222222;
+    --on-error: #E1E1E1;
 
     /* Fonts */
     --font-standard: 'PT Serif', georgia, serif;
@@ -21,13 +24,15 @@ html {
 }
 body {
     background-color: var(--background);
-    color: var(--on-secondary);
+    color: var(--black);
     font: normal normal 1em/2 var(--font-standard);
+    margin: 0em;
     /* Line-height shorcut = 1em/2 */
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-impact);
     font-weight: 900;
+    color: var(--white);
 }
 h2{
     text-transform: uppercase;
@@ -35,6 +40,8 @@ h2{
 .topnav {
     background-color: var(--secondary-blue);
     color: var(--on-primary);
+    height: 5em;
+    width: 100%;
 }
 .bottomnav {
     background-color: var(--secondary-blue);
@@ -51,46 +58,55 @@ h2{
 ul {
     list-style-type: none;
 }
+/* Drop Down Menu */
 .dropbtn {
-    background-color: black;
-    color: white;
-    padding: 0.5em;
-    font-size: 0.5em;
+    background-color: var(--secondary-blue);
+    color: var(--white);
+    padding: 1em;
+    font-size: 1em;
     border: none;
-}
+  }
+  
 .dropdown {
     position: relative;
     display: inline-block;
-}
+  }
+  
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: var(--primary-purple-2);
-    min-width: 1em;
-    box-shadow: 0em 0.050em 0.100em 0em;
+    background-color: var(--secondary-light-grey);
+    color: var(--grey);
+    min-width: 15em;
+    box-shadow: 0em 0.75em 1em 0em;
     z-index: 1;
-}
-.dropdown-content a{
-    color: var(--on-primary);
-    padding: 0.5em 0.5em;
+  }
+  
+.dropdown-content a {
+    color: var(--grey);
+    padding: 1em 1.5em;
     text-decoration: none;
     display: block;
-}
+  }
+  
 .dropdown-content a:hover {
-    background-color: var(--primary-purple-3);
+    background-color: var(--secondary-dark-grey);
+    color: var(--white);
 }
+  
 .dropdown:hover .dropdown-content {
     display: block;
 }
-.item {
-    padding: 0.1em;
-    text-align: center;
+  
+.dropdown:hover .dropbtn {
+    background-color: var(--secondary-dark-blue);
 }
+
 /* Images */
 
 .gbclogo {
     width: auto;
-    height: 3em;
+    height: 5em;
 }
 
 .banner1 {
@@ -194,6 +210,12 @@ ul {
     grid-column-start: 2;
     grid-column-end: 2;
 }
+
+.item {
+    padding: 0.1em;
+    text-align: center;
+}
+
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
