@@ -29,7 +29,6 @@ body {
     margin: 0em;
     /* Line-height shorcut = 1em/2 */
 }
-
 .nav-bar{
     width: 100%;
     background-color: var(--secondary-blue);
@@ -97,26 +96,24 @@ body {
   /*Right-icon Div*/
   .right-icon{
     float: right;
-    height: 5em;
     padding-right: 1em;
+}
+.icons {
+    height: 2em;
 }
 
 h1 {
+    font-size: 3em;
     color: var(--white);
     background-color: var(--primary-purple-1);
     width: 100%;
     text-align: center;
     margin-top: 0em;
     margin-bottom: 0em;
-    padding-top: 0.75em;
-    padding-bottom: 0.75em;
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     font-family: var(--font-impact);
-    font-size: 2em;
-}
-
-.banner1 {
-    float: center;
-    margin-top: 2em;
+    
 }
 
 .article1 , .article2 , .article3 , .article4 {
@@ -134,10 +131,12 @@ h2 {
     color: var(--primary-purple-1);
     margin-top: 0em;
     margin-bottom: 0em;
-    font-size: 2em;
+    font-size: 2.5em;
+    text-align: center;
 }
 
 h3, h4, h5, h6 {
+    font-size: 1.5em;
     font-family: var(--font-impact);
     font-weight: 900;
     text-transform: uppercase;
@@ -148,13 +147,19 @@ h3, h4, h5, h6 {
     background-color: var(--primary-purple-1);
     border: none;
     color: var(--white);
-    padding: 1em 2em;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     text-transform: uppercase;
     font-family: var(--font-impact);
+    width: 100%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.article1 a:hover {
+    background-color: var(--primary-purple-2);
 }
 
 ul {
@@ -162,79 +167,105 @@ ul {
     padding: 0em;
 }
 
+/* ARTICLE 2 - SKILLS */
+
+.article2 {
+    background-color: var(--primary-purple-3);
+}
+
 .skills {
     list-style-type: disc;
+    margin-left: 3em;
 }
+
+div {
+    background-color: var(--secondary-dark-grey);
+    width: 100%;
+    height: 0.125em;
+}
+
 /* ARTICLE 3 - PROJECTS DONE BY STUDENTS */
+.article3 {
+    background: var(--secondary-dark-grey);
+}
+.article3 h3 {
+    color: var(--white);
+}
 
 img{
     max-width: 100%;
   }
-  .grid-container1{
+
+.grid-container1{
     margin: auto;
-    border: #FFF solid 10px;
-    background: #FFF;
+    border: inherit 1em;
+    background: var(--secondary-dark-grey);
   }
-  .img-grid1{
+
+.img-grid1{
+    background: var(--secondary-dark-grey);
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 1em;
   }
-  /* For mobile phones: */
-  @media screen and (min-width: 600px){
-    .img-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  /*For desktop*/
-  @media screen and (min-width: 768px){
-    .img-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
 
 /* ARTICLE 4 - Career Opportunities */
 
+.article4 {
+    color: var(--primary-purple-1);
+    padding: 1em;
+}
+.article4 p{
+    padding: 0em 4em 0em 4em;
+    text-align: center;
+}
 .banner2 {
     width: 100%;
     height: auto;
     display: block;
     text-align: center;
+    margin: 0em;
 }
 
-/* ARTICLE ROW - STUDENT SUCCESS */
+/* ARTICLE 5 - STUDENT SUCCESS */
+.article5 {
+    background-color: var(--secondary-light-grey);
+}
 
 .grid-container2{
-    margin: auto;
-    border: #FFF solid 10px;
-    background: #FFF;
+    margin: 1em 1em 1em 1em;
+    background: var(--secondary-light-grey);
+    border: 1em var(--secondary-light-grey);
+
   }
-  .img-grid2{
+.img-grid2{
+    background-color: var(--secondary-light-grey);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
-  }
-/* For mobile phones: */
-  @media screen and (min-width: 600px){
-    .img-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-/*For desktop*/
-  @media screen and (min-width: 768px){
-    .img-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
+    grid-gap: 1em ;
+    margin-bottom: 0em;
   }
 
-/* ARTICLE COURSES - WHAT TO EXPECT */
-  .courses {
+.article5 h3 {
+    background-color: var(--primary-purple-1);
+    color: var(--white);
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.article5 p {
+    text-align: center;
+    padding: 0em 3em 0em 3em;
+}
+
+/* ARTICLE COURSES */
+
+.courses {
     background-color: var(--primary-purple-2);
     padding: 2em;
+    margin-bottom: 2em;
 }
 .courses h3 {
     color: var(--white);
-    font-size: 1.5em;
     text-align: center;
 }
 .semesters {
@@ -262,18 +293,44 @@ img{
 }
 
 /* FOOTER */
+.gbclogo2 {
+    float: right;
+    height: 7em;
+    width: auto;
+}
+.grid-container3{
+    border: var(--secondary-blue) solid 10px;
+    background: var(--secondary-blue);
+  }
+.img-grid3 li {
+    text-align: left;
+    font-size: 0.8em;
+}
+.img-grid3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1em;
+  }
+.grid-container4{
+    border: var(--secondary-blue) solid 10px;
+    background: var(--secondary-blue);
+  }
+.img-grid4 li {
+    text-align: center;
+}
+.img-grid4{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-gap: 1em;
+  }
+.socials {
+    height: 3em;
+    width: auto;
+}
 
 .bottomnav {
     background-color: var(--secondary-blue);
     color: var(--white);
-
-}
-.top {
-    background-color: var(--secondary-blue);
-    color: var(--white);
-    float: right;
-    padding: 1em;
-    margin: 2em;
 }
 
 /* For mobile phones: */
@@ -282,11 +339,17 @@ img{
         padding-right: 5%;
         padding-left: 5%;
     }
-    .banner1 {
-        width: 90%;
-        height: auto;
-        margin-right: 5%;
-        margin-left: 5%;
+    .img-grid1 {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    .img-grid2 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    .img-grid3 {
+        grid-template-columns: repeat(2, 2fr);
+      }
+    .img-grid4 {
+        grid-template-columns: repeat(3, 1fr)
     }
  }
 /* For tablets: */
@@ -295,12 +358,18 @@ img{
         padding-right: 10%;
         padding-left: 10%;
     }
-    .banner1 {
-        width: 80%;
-        height: auto;
-        margin-right: 10%;
-        margin-left: 10%;
+    .img-grid1 {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    .img-grid2 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    .img-grid3 {
+        grid-template-columns: repeat(4, 2fr)
     }
+    .img-grid4 {
+        grid-template-columns: repeat(6, 1fr);
+      }
   }
 
 /* For desktop: */
@@ -316,5 +385,18 @@ img{
         margin-left: 15%;
         margin-right: 15%;
     }
+    .img-grid1 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    .img-grid2 {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    .img-grid3 {
+        grid-template-columns: repeat(4, 2fr)
+    }
+    .img-grid4 {
+        grid-template-columns: repeat(6, 1fr);
+      }
+
   }
   
