@@ -10,13 +10,11 @@ html {
     --secondary-dark-grey: #666666;
     --secondary-light-grey: #EDEDED;
     --background: #ffffff;
-    --error: #C00909;
 
     /* Foreground colours*/
     --white: #ffffff;
     --black: #000000;
     --grey: #222222;
-    --on-error: #E1E1E1;
 
     /* Fonts */
     --font-impact: 'Roboto', helvetica, arial, sans-serif;
@@ -73,7 +71,6 @@ body {
     min-width: 15em;
     box-shadow: 0em 0.75em 1em 0em;
     z-index: 1;
-    font-family: inherit;
 }
 
 /* Links inside the dropdown */
@@ -194,14 +191,22 @@ ul {
     text-transform: uppercase;
     background: var(--primary-purple-3);
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.5em;
+=======
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1.5em;
+>>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
 }
 
 .skills-grid li {
     background-color: var(--primary-purple-2);
     color: var(--white);
+<<<<<<< HEAD
     padding: 1em;
+=======
+>>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
 }
 
 /* ARTICLE 3 - PROJECTS DONE BY STUDENTS */
@@ -255,16 +260,15 @@ img{
 }
 
 .grid-container2{
-    margin: 1em 1em 1em 1em;
-    background: var(--secondary-light-grey);
-    border: 1em var(--secondary-light-grey);
+    padding: 1em 1em 1em 1em;
+    background-color: var(--secondary-light-grey);
+    border: 1em;
 
 }
 
 .img-grid2{
-    background-color: var(--secondary-light-grey);
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em ;
     margin-bottom: 0em;
 }
@@ -366,6 +370,7 @@ img{
 }
 
 /* For mobile phones: */
+<<<<<<< HEAD
  @media only screen and (min-width: 480px) {
      body {
          font-size: 1em;
@@ -373,20 +378,25 @@ img{
     .page-content {
         padding-right: 5%;
         padding-left: 5%;
+=======
+ /* @media only screen and (min-width: 320px) { */
+    .skills-grid {
+        grid-template-columns: 1fr 1fr;
+>>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
     }
     .img-grid1 {
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
     .img-grid2 {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 4fr 1fr;
     }
     .img-grid3 {
-        grid-template-columns: repeat(2, 2fr);
+        grid-template-columns: 2fr 2fr;
     }
     .img-grid4 {
-        grid-template-columns: repeat(3, 1fr)
+        grid-template-columns: 3fr 1fr;
     }
- }
+ /* } */
 
 /* For tablets: */
   @media only screen and (min-width: 600px) {
@@ -394,17 +404,18 @@ img{
         padding-right: 10%;
         padding-left: 10%;
     }
+    
     .img-grid1 {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 2fr 1fr;
     }
     .img-grid2 {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
     .img-grid3 {
-        grid-template-columns: repeat(4, 2fr)
+        grid-template-columns: 4fr 2fr;
     }
     .img-grid4 {
-        grid-template-columns: repeat(6, 1fr);
+        grid-template-columns: 6fr 1fr;
     }
 }
 
@@ -428,7 +439,7 @@ img{
         grid-template-columns: repeat(4, 1fr);
     }
     .img-grid2 {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: 1fr 1fr;
     }
     .img-grid3 {
         grid-template-columns: repeat(4, 2fr)
