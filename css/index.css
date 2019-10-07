@@ -191,22 +191,16 @@ ul {
     text-transform: uppercase;
     background: var(--primary-purple-3);
     display: grid;
-<<<<<<< HEAD
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.5em;
-=======
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5em;
->>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
 }
 
 .skills-grid li {
     background-color: var(--primary-purple-2);
     color: var(--white);
-<<<<<<< HEAD
     padding: 1em;
-=======
->>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
 }
 
 /* ARTICLE 3 - PROJECTS DONE BY STUDENTS */
@@ -370,7 +364,6 @@ img{
 }
 
 /* For mobile phones: */
-<<<<<<< HEAD
  @media only screen and (min-width: 480px) {
      body {
          font-size: 1em;
@@ -378,13 +371,8 @@ img{
     .page-content {
         padding-right: 5%;
         padding-left: 5%;
-=======
  /* @media only screen and (min-width: 320px) { */
-    .skills-grid {
-        grid-template-columns: 1fr 1fr;
->>>>>>> d90c267af839316a4a65e1fe9c2500f2ccd7a6cc
-    }
-    .img-grid1 {
+    .skills-grid , .img-grid1 {
         grid-template-columns: 1fr 1fr;
     }
     .img-grid2 {
