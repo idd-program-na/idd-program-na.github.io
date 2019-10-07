@@ -140,7 +140,7 @@ h2 {
     font-size: 2.5em;
 }
 
-h3, h4, h5, h6 {
+h3, h4 {
     font-size: 1.5em;
     font-family: var(--font-impact);
     font-weight: 900;
@@ -159,12 +159,6 @@ h3, h4, h5, h6 {
     width: 100%;
     padding-top: 1em;
     padding-bottom: 1em;
-}
-.article1 p {
-    text-align: center;
-}
-.article1 a:hover {
-    background-color: var(--primary-purple-2);
 }
 
 ul {
@@ -188,19 +182,16 @@ ul {
 }
 .skills-grid {
     font-family: var(--font-impact);
-    text-transform: uppercase;
     background: var(--primary-purple-3);
     display: grid;
-    grid-template-columns: repeat(1, 1fr);
     grid-gap: 0.5em;
     grid-template-columns: 1fr 1fr;
     grid-gap: 1.5em;
 }
 
 .skills-grid li {
-    background-color: var(--primary-purple-2);
+    background-color: var(--primary-purple-1);
     color: var(--white);
-    padding: 1em;
 }
 
 /* ARTICLE 3 - PROJECTS DONE BY STUDENTS */
@@ -225,21 +216,14 @@ img{
 .img-grid1{
     background: var(--secondary-dark-grey);
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 
 /* ARTICLE 4 - Career Opportunities */
 .article4 {
     color: var(--primary-purple-1);
-    padding: 1em;
 }
-
-.article4 p{
-    padding: 0em 4em 0em 4em;
-    text-align: center;
-}
-
 .banner2 {
     width: 100%;
     height: auto;
@@ -248,6 +232,23 @@ img{
     margin: 0em;
 }
 
+.jobs-grid-container {
+    margin: auto;
+    background-color: var(--white);
+}
+.jobs-grid {
+    font-family: var(--font-impact);
+    background: var(--secondary-light-grey);
+    display: grid;
+    grid-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+
+.jobs-grid li {
+    color: var(--primary-purple-1);
+    background-color: var(--white);
+    padding: 0.75em;
+}
 /* ARTICLE 5 - STUDENT SUCCESS */
 .article5 {
     background-color: var(--secondary-light-grey);
@@ -262,9 +263,12 @@ img{
 
 .img-grid2{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 1em ;
     margin-bottom: 0em;
+}
+.company {
+    width: 100%;
 }
 
 .article5 h3 {
@@ -274,7 +278,6 @@ img{
     padding-bottom: 1em;
 }
 .article5 p {
-    text-align: center;
     padding: 0em 3em 0em 3em;
 }
 
@@ -287,7 +290,6 @@ img{
 
 .courses h3 {
     color: var(--white);
-    text-align: center;
 }
 
 .semesters {
@@ -298,7 +300,6 @@ img{
     padding-left: 1.5em;
     padding-right: 1.5em;
     padding-bottom: 1.5em;
-    text-align: center;
 }
 
 .semester{
@@ -308,7 +309,6 @@ img{
     padding: 0em;
     padding-top: 1em;
     padding-bottom: 1em;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
@@ -335,7 +335,7 @@ img{
 
 .img-grid3{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-gap: 1em;
 }
 .grid-container4{
@@ -343,13 +343,9 @@ img{
     background: var(--secondary-blue);
 }
 
-.img-grid4 li {
-    text-align: center;
-}
-
 .img-grid4{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 0.5em;
 }
 
@@ -364,48 +360,30 @@ img{
 }
 
 /* For mobile phones: */
- @media only screen and (min-width: 480px) {
-     body {
-         font-size: 1em;
-     }
-    .page-content {
-        padding-right: 5%;
-        padding-left: 5%;
- /* @media only screen and (min-width: 320px) { */
-    .skills-grid , .img-grid1 {
-        grid-template-columns: 1fr 1fr;
+
+ @media only screen and (min-width: 320px) {
+    .img-grid1 {
+        grid-template-columns: 1fr;
     }
-    .img-grid2 {
-        grid-template-columns: 4fr 1fr;
+    .skills-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 0.25em;
     }
-    .img-grid3 {
-        grid-template-columns: 2fr 2fr;
+    .skills-grid li {
+        padding: 0.75em;
     }
     .img-grid4 {
-        grid-template-columns: 3fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
     }
- /* } */
-
-/* For tablets: */
-  @media only screen and (min-width: 600px) {
-    .page-content {
-        padding-right: 10%;
-        padding-left: 10%;
+    .jobs-grid {
+        grid-template-columns: 1fr;
+        grid-gap: 0.25em;
     }
     
-    .img-grid1 {
-        grid-template-columns: 2fr 1fr;
+    .jobs-grid li {
+        padding: 0.75em;
     }
-    .img-grid2 {
-        grid-template-columns: 1fr 1fr;
-    }
-    .img-grid3 {
-        grid-template-columns: 4fr 2fr;
-    }
-    .img-grid4 {
-        grid-template-columns: 6fr 1fr;
-    }
-}
+ }
 
 /* For desktop: */
   @media only screen and (min-width: 768px) {
@@ -421,19 +399,10 @@ img{
         margin-right: 15%;
     }
     .skills-grid {
-        grid-template-columns: repeat(2, 1fr)
-    }
-    .img-grid1 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-    .img-grid2 {
         grid-template-columns: 1fr 1fr;
     }
-    .img-grid3 {
-        grid-template-columns: repeat(4, 2fr)
-    }
-    .img-grid4 {
-        grid-template-columns: repeat(6, 1fr);
+    .img-grid1 , .img-grid3 {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
   }
   
