@@ -127,7 +127,9 @@ h1 {
     background-color: var(--secondary-light-grey);
     padding: 2em;
 }
-
+a {
+    display: block;
+}
 /* ARTICLE 1 - Description */
 .greytext {
     color: var(--secondary-dark-grey);
