@@ -366,32 +366,6 @@ img{
     text-transform: uppercase;
 }
 
-/* For mobile phones: */
-
- @media only screen and (min-width: 320px) {
-    .img-grid1 {
-        grid-template-columns: 1fr;
-    }
-    .skills-grid {
-        grid-template-columns: 1fr;
-        grid-gap: 0.25em;
-    }
-    .skills-grid li {
-        padding: 0.75em;
-    }
-    .img-grid4 {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-    .jobs-grid {
-        grid-template-columns: 1fr;
-        grid-gap: 0.25em;
-    }
-    
-    .jobs-grid li {
-        padding: 0.75em;
-    }
- }
-
 /* For desktop: */
   @media only screen and (min-width: 768px) {
     
